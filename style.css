@@ -1,0 +1,96 @@
+body {
+	background: #FBEBEA; 
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: black;
+	color: white; 
+	font-family: sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 5px;
+	padding-left: 15px;
+}
+
+#wrapper {
+	width: auto;
+	height: 560px;
+	padding: 12px;
+}
+
+#incorrect {
+	color: red;
+}
+
+#left {
+	width: auto;
+	float: left;
+	margin-right: 60px;
+}
+
+.fDiv {
+	margin: 5px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td, tr {
+	border: 1px solid black;
+}
+
+td {
+	width: 100px;
+	text-align: center;
+	min-height: 40px;
+}
+
+tr {
+	height: 40px;
+}
+
+tr:hover {
+	background: black;
+	color: white;
+}
+
+#header {
+	font-weight: bold;
+}
+
+#graph {
+	margin-left: 20px;
+}
+
+#form {
+	position: relative;
+	top: 80px;
+	background: white;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+button {
+	width: 90px;
+	height: 30px;
+	margin: 10px;
+	margin-left: 140px; 
+	font-weight: 1;
+}
+
+#table {
+	padding-left: 30px;
+}
+
+input[type="text"] {
+	width: 70px;
+	height: 20px;
+}
+
+#y::placeholder {
+	font-family: cursive;
+}
